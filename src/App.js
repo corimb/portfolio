@@ -9,8 +9,10 @@ import Contact from './views/Contact'
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { fab } from '@fortawesome/free-brands-svg-icons';
+import { fas } from '@fortawesome/free-solid-svg-icons'
 
 library.add(fab);
+library.add(fas);
 
 
 function App() {
@@ -18,13 +20,14 @@ function App() {
     <Router>
     <div className="App">
       <header className="App-header">
-      <nav class="menu">
-          <ul>
-            <li><Link to="/">Bio</Link></li>
-            <li><Link to="/portfolio">Portfolio</Link></li>
-            <li><Link to="/contact">Contact</Link></li>
-          </ul>
-      </nav>
+        <Link to="/"><FontAwesomeIcon className="home-icon" icon={['fas', 'home']} ></FontAwesomeIcon></Link>
+        <nav className="menu">
+            <ul>
+              <li><Link to="/">Bio</Link></li>
+              <li><Link to="/portfolio">Portfolio</Link></li>
+              <li><Link to="/contact">Contact</Link></li>
+            </ul>
+        </nav>
       </header>
       <section className="content">
       <Switch>
@@ -40,7 +43,7 @@ function App() {
         </Switch>
       </section>
       <footer className="footer">
-        <nav class="social-media">
+        <nav className="social-media">
             <ul>
               <li><a href="https://www.linkedin.com/in/corina-mihaela-borcoci/"><FontAwesomeIcon icon={['fab', 'linkedin']} size='lg'></FontAwesomeIcon></a></li>
               <li><a href="https://github.com/corimb"><FontAwesomeIcon icon={['fab', 'github']} size='lg'></FontAwesomeIcon></a></li>
