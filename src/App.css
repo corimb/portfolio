@@ -11,6 +11,9 @@
     justify-content: space-between;
     font-size: calc(10px + 2vmin);
     color: white;
+    width: 100vw;
+    z-index: 99;
+    position: fixed;
 }
 
 .App-link {
@@ -20,6 +23,13 @@
 .home-icon {
     padding: 1em;
     color: white;
+}
+.home-icon:hover {
+    transition: 0.3s all ease-out;
+    background-color: white;
+    color: #282c34;
+    box-shadow: 0px 0px 10px rgb(230, 230, 230);
+    border-radius: 5px;
 }
 
 .menu ul {
@@ -33,7 +43,7 @@
 }
 
 .menu ul li a {
-    padding: 1em;
+    padding: 0.7em;
     color: inherit;
 }
 
@@ -48,16 +58,26 @@
 }
 
 .social-media ul li a {
-    padding: 2em;
-    color: inherit;
+    padding: 1em;
+    color: #282c34;
 }
 
 .footer {
     min-height: 10vh;
+    width: 100vw;
+    position: fixed;
+    bottom: 0;
+    background-color: rgb(224, 224, 221);
+}
+
+.footer-copy {
+    color: grey;
+    font-family: monospace;
 }
 
 .content {
     min-height: 80vh;
+    padding-top: 8em;
 }
 
 .history {
@@ -69,6 +89,38 @@
 }
 
 .photo {
-    width: 50px;
-    height: 50px;
+    padding-top: 15px;
+    width: 100px;
+    height: 100px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgb(109, 108, 108);
+}
+
+.bio-link,
+.portfolio-link,
+.contact-link {
+    background-color: #282c34;
+    color: white;
+    box-shadow: none;
+}
+.contact-link:hover {
+    transition: 0.3s all ease-out;
+    background-color: white;
+    color: #282c34;
+    box-shadow: 0px 0px 10px rgb(230, 230, 230);
+    border-radius: 5px;
+}
+.portfolio-link:hover {
+    transition: 0.3s all ease-out;
+    background-color: white;
+    color: #282c34;
+    box-shadow: 0px 0px 10px rgb(230, 230, 230);
+    border-radius: 5px;
+}
+.bio-link:hover {
+    transition: 0.3s all ease-out;
+    background-color: white;
+    color: #282c34;
+    box-shadow: 0px 0px 10px rgb(230, 230, 230);
+    border-radius: 5px;
 }
