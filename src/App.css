@@ -79,14 +79,6 @@
     padding-top: 8em;
 }
 
-.history {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin-left: 5em;
-    margin-right: 5em;
-}
-
 .photo {
     width: 100px;
     height: 100px;
@@ -161,4 +153,54 @@ article a .text {
 
 article a:hover .text {
     visibility: visible;
+}
+
+.description {
+    margin-left: 3em;
+    margin-right: 3em;
+    text-justify: inter-word;
+}
+
+.experience-icon {
+    font-size: 2em;
+    top: 100px;
+}
+
+.experience-skills-title {
+    display: flex;
+    font-weight: bold;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.experience-skills {
+    /* display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center; */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-self: center;
+    align-items: center;
+    margin: 1em;
+    border: 1px solid black;
+}
+
+.icon-container {
+    /* height: fit-content; */
+    align-self: center;
+}
+
+.skills {
+    justify-self: end;
+    align-self: center;
+}
+
+.skills p {
+    text-align: end;
+}
+
+.history {
+    margin-left: 2em;
+    margin-right: 2em;
 }
