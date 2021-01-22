@@ -158,7 +158,7 @@ article a:hover .text {
 .description {
     margin-left: 3em;
     margin-right: 3em;
-    text-justify: inter-word;
+    text-align: justify;
 }
 
 .experience-icon {
@@ -171,24 +171,53 @@ article a:hover .text {
     font-weight: bold;
     display: grid;
     grid-template-columns: 1fr 1fr;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+.experience-title {
+    text-align: left;
+}
+
+.skills-title {
+    text-align: right;
 }
 
 .experience-skills {
-    /* display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center; */
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-self: center;
     align-items: center;
     margin: 1em;
-    border: 1px solid black;
+    /* padding: 3px 10px;
+    border: rgb(132, 132, 143) 3px solid;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px; */
+    padding: 1rem 1rem;
+    /* display: inline-block; */
+    border: 2px solid #333333;
+    /* font-size: 2.5rem;
+    border-radius: 2% 6% 5% 4% / 1% 1% 2% 4%;
+    text-transform: uppercase;
+    letter-spacing: 0.3ch; */
+    background: #ffffff;
+    position: relative;
+}
+.experience-skills:before {
+    content: '';
+    border: 2px solid #353535;
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate3d(-50%, -50%, 0) scale(1.015) rotate(0.5deg);
+    border-radius: 1% 1% 2% 4% / 2% 6% 5% 4%;
 }
 
 .icon-container {
-    /* height: fit-content; */
-    align-self: center;
+    text-align: start;
 }
 
 .skills {
@@ -203,4 +232,41 @@ article a:hover .text {
 .history {
     margin-left: 2em;
     margin-right: 2em;
+}
+
+.separator01 {
+    position: relative;
+    display: inline-block;
+    margin: auto;
+    width: 216px;
+    height: 2.5em;
+    padding: 1em 0;
+}
+.separator01:after {
+    position: absolute;
+    content: '';
+    display: block;
+    width: 2px;
+    height: 2px;
+}
+/* ----- 960px ----- */
+.separator01:after {
+    box-shadow: 3px 14px 0 #000, 7px 14px 0 #000, 11px 14px 0 #000, 15px 14px 0 #000, 19px 14px 0 #000, 23px 14px 0 #000,
+        27px 14px 0 #000, 31px 14px 0 #000, 35px 14px 0 #000, 39px 14px 0 #000, 43px 14px 0 #000, 47px 14px 0 #000,
+        51px 14px 0 #000, 55px 14px 0 #000, 59px 14px 0 #000, 63px 14px 0 #000, 67px 14px 0 #000, 75px 10px 0 #000,
+        77px 10px 0 #000, 73px 12px 0 #000, 79px 12px 0 #000, 83px 12px 0 #000, 71px 14px 0 #000, 81px 14px 0 #000,
+        83px 14px 0 #000, 85px 14px 0 #000, 73px 16px 0 #000, 79px 16px 0 #000, 83px 16px 0 #000, 75px 18px 0 #000,
+        77px 18px 0 #000, 97px 8px 0 #000, 117px 8px 0 #000, 93px 10px 0 #000, 99px 10px 0 #000, 107px 10px 0 #000,
+        115px 10px 0 #000, 121px 10px 0 #000, 89px 12px 0 #000, 95px 12px 0 #000, 101px 12px 0 #000, 105px 12px 0 #000,
+        107px 12px 0 #000, 109px 12px 0 #000, 113px 12px 0 #000, 119px 12px 0 #000, 125px 12px 0 #000, 91px 14px 0 #000,
+        97px 14px 0 #000, 103px 14px 0 #000, 105px 14px 0 #000, 107px 14px 0 #000, 109px 14px 0 #000, 111px 14px 0 #000,
+        117px 14px 0 #000, 123px 14px 0 #000, 89px 16px 0 #000, 95px 16px 0 #000, 101px 16px 0 #000, 105px 16px 0 #000,
+        107px 16px 0 #000, 109px 16px 0 #000, 113px 16px 0 #000, 119px 16px 0 #000, 125px 16px 0 #000, 93px 18px 0 #000,
+        99px 18px 0 #000, 107px 18px 0 #000, 115px 18px 0 #000, 121px 18px 0 #000, 97px 20px 0 #000, 117px 20px 0 #000,
+        137px 10px 0 #000, 139px 10px 0 #000, 131px 12px 0 #000, 135px 12px 0 #000, 141px 12px 0 #000, 129px 14px 0 #000,
+        131px 14px 0 #000, 133px 14px 0 #000, 143px 14px 0 #000, 131px 16px 0 #000, 135px 16px 0 #000, 141px 16px 0 #000,
+        137px 18px 0 #000, 139px 18px 0 #000, 147px 14px 0 #000, 151px 14px 0 #000, 155px 14px 0 #000, 159px 14px 0 #000,
+        163px 14px 0 #000, 167px 14px 0 #000, 171px 14px 0 #000, 175px 14px 0 #000, 179px 14px 0 #000, 183px 14px 0 #000,
+        187px 14px 0 #000, 191px 14px 0 #000, 195px 14px 0 #000, 199px 14px 0 #000, 203px 14px 0 #000, 207px 14px 0 #000,
+        211px 14px 0 #000;
 }

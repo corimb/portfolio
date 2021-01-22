@@ -20,10 +20,11 @@ const Bio = () => {
             </p>
         </article>
     </section>
+    <div className="separator01"></div>
     <section className="history">
         <div className="experience-skills-title">
-            <div>Experience</div>
-            <div>Skills</div>
+            <div className="experience-title">Experience</div>
+            <div className="skills-title">Skills</div>
         </div>
         <article className="experience-skills">
             <div className="icon-container">
