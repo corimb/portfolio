@@ -29,52 +29,67 @@ const Bio = () => {
         <article className="experience-skills">
             <div className="icon-container">
                 <FontAwesomeIcon className="experience-icon" icon={['fas', 'globe-africa']} ></FontAwesomeIcon>
-                <p>traveling</p>
+                <p>Traveling</p>
             </div>
             <div className="skills">
                 <p>communication</p>
                 <p>languages</p>
             </div>
+            <div class="flip-card-back">
+                <p>Text</p>
+            </div>
         </article>
         <article className="experience-skills">
             <div className="icon-container">
                 <FontAwesomeIcon className="experience-icon" icon={['fas', 'graduation-cap']} ></FontAwesomeIcon>
-                <p>college</p>
+                <p>College</p>
             </div>
             <div className="skills">
                 <p>teamwork</p>
                 <p>research</p>
             </div>
+            <div class="flip-card-back">
+                <p>Text</p>
+            </div>
         </article>
         <article className="experience-skills">
             <div className="icon-container">
                 <FontAwesomeIcon className="experience-icon" icon={['fas', 'bed']} ></FontAwesomeIcon>
-                <p>reception</p>
+                <p>Reception</p>
             </div>
             <div className="skills">
                 <p>multitasking</p>
                 <p>manage conflicts</p>
             </div>
+            <div class="flip-card-back">
+                <p>Text</p>
+            </div>
         </article>
         <article className="experience-skills">
             <div className="icon-container">
                 <FontAwesomeIcon className="experience-icon" icon={['fas', 'headset']} ></FontAwesomeIcon>
-                <p>tele-operator</p>
+                <p>Tele-operator</p>
             </div>
             <div className="skills">
                 <p>adaptability</p>
                 <p>patience</p>
                 <p>leadership</p>
             </div>
+            <div class="flip-card-back">
+                <p>Text</p>
+            </div>
         </article>
         <article className="experience-skills">
             <div className="icon-container">
                 <FontAwesomeIcon className="experience-icon" icon={['fas', 'building']} ></FontAwesomeIcon>
-                <p>administration</p>
+                <p>Administration</p>
             </div>
             <div className="skills">
                 <p>responsability</p>
                 <p>organization</p>
+            </div>
+            <div class="flip-card-back">
+                <p>Text</p>
             </div>
         </article>
         <article className="experience-skills">
@@ -88,12 +103,17 @@ const Bio = () => {
                 <p>ambition</p>
                 <p>self control</p>
             </div>
+            <div class="flip-card-back">
+                <p>Text</p>
+            </div>
         </article>
     </section>
-    <section>
-        <button>
-            <a href="../download/cv-corina-borcoci.pdf" download="cv_corina_borcoci.pdf">Download CV</a>
-        </button>
+    <section className="download-btn">
+            <a href="../download/cv-corina-borcoci.pdf" download="cv_corina_borcoci.pdf" class="btn">
+                <span class="text">Text</span>
+                <span class="flip-front">Download CV</span>
+                <span class="flip-back">Hi there!</span>
+            </a>
     </section>
     </>
     )

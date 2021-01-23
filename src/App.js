@@ -8,18 +8,6 @@ import Contact from './views/Contact'
 import Header from './components/Header'
 import Footer from './components/Footer'
 
-// window.addEventListener("scroll", () => {
-//   const distanceY = window.pageYOffset || document.documentElement.scrollTop,
-//     shrinkOn = 200,
-//     headerEl = document.getElementById("js-header");
-
-//     if (distanceY > shrinkOn) {
-//       headerEl.classList.add("smaller");
-//     } else {
-//       headerEl.classList.remove("smaller");
-//     }
-//   })
-
 function App() {
     
         return (

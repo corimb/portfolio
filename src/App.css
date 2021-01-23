@@ -45,6 +45,9 @@
 .menu ul li a {
     padding: 0.7em;
     color: inherit;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    text-decoration: none;
 }
 
 .social-media ul {
@@ -159,6 +162,8 @@ article a:hover .text {
     margin-left: 3em;
     margin-right: 3em;
     text-align: justify;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
 }
 
 .experience-icon {
@@ -177,10 +182,16 @@ article a:hover .text {
 
 .experience-title {
     text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 1.2rem;
 }
 
 .skills-title {
     text-align: right;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 1.2rem;
 }
 
 .experience-skills {
@@ -189,17 +200,8 @@ article a:hover .text {
     align-self: center;
     align-items: center;
     margin: 1em;
-    /* padding: 3px 10px;
-    border: rgb(132, 132, 143) 3px solid;
-    border-top-left-radius: 20px;
-    border-bottom-right-radius: 20px; */
     padding: 1rem 1rem;
-    /* display: inline-block; */
     border: 2px solid #333333;
-    /* font-size: 2.5rem;
-    border-radius: 2% 6% 5% 4% / 1% 1% 2% 4%;
-    text-transform: uppercase;
-    letter-spacing: 0.3ch; */
     background: #ffffff;
     position: relative;
 }
@@ -220,6 +222,11 @@ article a:hover .text {
     text-align: start;
 }
 
+.icon-container p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
 .skills {
     justify-self: end;
     align-self: center;
@@ -227,6 +234,8 @@ article a:hover .text {
 
 .skills p {
     text-align: end;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
 }
 
 .history {
@@ -269,4 +278,76 @@ article a:hover .text {
         163px 14px 0 #000, 167px 14px 0 #000, 171px 14px 0 #000, 175px 14px 0 #000, 179px 14px 0 #000, 183px 14px 0 #000,
         187px 14px 0 #000, 191px 14px 0 #000, 195px 14px 0 #000, 199px 14px 0 #000, 203px 14px 0 #000, 207px 14px 0 #000,
         211px 14px 0 #000;
+}
+
+/* Button download */
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+.btn {
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    left: 50%;
+    top: 50%;
+    transform: translate(0%, -50%);
+    -webkit-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+    border: 1px solid black;
+    margin-top: 40px;
+}
+
+.text {
+    padding: 0 50px;
+    visibility: hidden;
+}
+
+.flip-front,
+.flip-back {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    -webkit-transform-style: flat;
+    transform-style: flat;
+    -webkit-transition: -webkit-transform 0.3s ease-out;
+    -o-transition: -o-transform 0.3s ease-out;
+    transition: transform 0.3s ease-out;
+}
+
+.flip-front {
+    color: #313131;
+    background-color: transparent;
+    -webkit-transform: rotateX(0deg) translateZ(25px);
+    -ms-transform: rotateX(0deg) translateZ(25px);
+    -o-transform: rotateX(0deg) translateZ(25px);
+    transform: rotateX(0deg) translateZ(25px);
+}
+
+.flip-back {
+    color: #fff;
+    background-color: #313131;
+    -webkit-transform: rotateX(90deg) translateZ(25px);
+    -ms-transform: rotateX(90deg) translateZ(25px);
+    -o-transform: rotateX(90deg) translateZ(25px);
+    transform: rotateX(90deg) translateZ(25px);
+}
+
+.btn:hover .flip-front {
+    -webkit-transform: rotateX(-90deg) translateZ(25px);
+    -ms-transform: rotateX(-90deg) translateZ(25px);
+    -o-transform: rotateX(-90deg) translateZ(25px);
+    transform: rotateX(-90deg) translateZ(25px);
+}
+
+.btn:hover .flip-back {
+    -webkit-transform: rotateX(0deg) translateZ(25px);
+    -ms-transform: rotateX(0deg) translateZ(25px);
+    -o-transform: rotateX(0deg) translateZ(25px);
+    transform: rotateX(0deg) translateZ(25px);
 }
