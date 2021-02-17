@@ -35,7 +35,7 @@ const Bio = () => {
                 <p>communication</p>
                 <p>languages</p>
             </div>
-            <div class="flip-card-back">
+            <div className="flip-back">
                 <p>Text</p>
             </div>
         </article>
@@ -48,7 +48,7 @@ const Bio = () => {
                 <p>teamwork</p>
                 <p>research</p>
             </div>
-            <div class="flip-card-back">
+            <div className="flip-back">
                 <p>Text</p>
             </div>
         </article>
@@ -61,7 +61,7 @@ const Bio = () => {
                 <p>multitasking</p>
                 <p>manage conflicts</p>
             </div>
-            <div class="flip-card-back">
+            <div className="flip-back">
                 <p>Text</p>
             </div>
         </article>
@@ -75,7 +75,7 @@ const Bio = () => {
                 <p>patience</p>
                 <p>leadership</p>
             </div>
-            <div class="flip-card-back">
+            <div className="flip-back">
                 <p>Text</p>
             </div>
         </article>
@@ -88,7 +88,7 @@ const Bio = () => {
                 <p>responsability</p>
                 <p>organization</p>
             </div>
-            <div class="flip-card-back">
+            <div className="flip-back">
                 <p>Text</p>
             </div>
         </article>
@@ -103,16 +103,16 @@ const Bio = () => {
                 <p>ambition</p>
                 <p>self control</p>
             </div>
-            <div class="flip-card-back">
+            <div className="flip-back">
                 <p>Text</p>
             </div>
         </article>
     </section>
     <section className="download-btn">
-            <a href="../download/cv-corina-borcoci.pdf" download="cv_corina_borcoci.pdf" class="btn">
-                <span class="text">Text</span>
-                <span class="flip-front">Download CV</span>
-                <span class="flip-back">Hi there!</span>
+            <a href="../download/cv-corina-borcoci.pdf" download="cv_corina_borcoci.pdf" className="btn">
+                <span className="text">Text</span>
+                <span className="flip-front">Download CV</span>
+                <span className="flip-back">Nice to meet U!</span>
             </a>
     </section>
     </>

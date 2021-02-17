@@ -204,6 +204,7 @@ article a:hover .text {
     border: 2px solid #333333;
     background: #ffffff;
     position: relative;
+    height: 150px;
 }
 .experience-skills:before {
     content: '';
@@ -345,7 +346,21 @@ a {
     transform: rotateX(-90deg) translateZ(25px);
 }
 
+.experience-skills:hover .flip-front {
+    -webkit-transform: rotateX(-90deg) translateZ(25px);
+    -ms-transform: rotateX(-90deg) translateZ(25px);
+    -o-transform: rotateX(-90deg) translateZ(25px);
+    transform: rotateX(-90deg) translateZ(25px);
+}
+
 .btn:hover .flip-back {
+    -webkit-transform: rotateX(0deg) translateZ(25px);
+    -ms-transform: rotateX(0deg) translateZ(25px);
+    -o-transform: rotateX(0deg) translateZ(25px);
+    transform: rotateX(0deg) translateZ(25px);
+}
+
+.experience-skills:hover .flip-back {
     -webkit-transform: rotateX(0deg) translateZ(25px);
     -ms-transform: rotateX(0deg) translateZ(25px);
     -o-transform: rotateX(0deg) translateZ(25px);
