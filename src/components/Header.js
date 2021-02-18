@@ -1,4 +1,3 @@
-import { Link } from 'react-router-dom';
 import React from 'react';
 
 import '../App.css';
@@ -14,12 +13,12 @@ library.add(fas);
 const Header = () => {
     return( 
     <>
-    <Link to="/"><FontAwesomeIcon className="home-icon" icon={['fas', 'home']} ></FontAwesomeIcon></Link>
+    <a href="#home"><FontAwesomeIcon className="home-icon" icon={['fas', 'home']} ></FontAwesomeIcon></a>
         <nav className="menu">
             <ul>
-              <li><Link to="/" className="bio-link">Bio</Link></li>
-              <li><Link to="/portfolio" className="portfolio-link">Portfolio</Link></li>
-              <li><Link to="/contact" className="contact-link">Contact</Link></li>
+              <li><a href="#about" className="about-link">About</a></li>
+              <li><a href="#portfolio" className="portfolio-link">Portfolio</a></li>
+              <li><a href="#contact" className="contact-link">Contact</a></li>
             </ul>
         </nav>
     </>
