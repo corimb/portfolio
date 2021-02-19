@@ -77,6 +77,10 @@
     font-family: monospace;
 }
 
+.footer-copy a {
+    color: black;
+}
+
 .main-content {
     min-height: 80vh;
     padding-top: 8em;
@@ -365,4 +369,166 @@ a {
     -ms-transform: rotateX(0deg) translateZ(25px);
     -o-transform: rotateX(0deg) translateZ(25px);
     transform: rotateX(0deg) translateZ(25px);
+}
+
+.scroll--down--button {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    padding: 11px;
+    background-color: black;
+    color: rgb(224, 224, 221);
+}
+
+.home-button {
+    margin-bottom: 53px;
+    margin-top: 45px;
+}
+
+/* contact form */
+
+input {
+    display: block;
+    width: 100%;
+    margin: auto;
+    padding: 15px;
+    height: 45px;
+    border: 1px solid black;
+    color: grey;
+}
+
+label {
+    color: black;
+    line-height: 2;
+    font-size: 14px;
+}
+
+.contact-title {
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+.contact-info {
+    margin: 0px 15px 70px 15px;
+}
+.small-info {
+    display: inline-block;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: black;
+}
+
+.form {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 290px;
+    margin: auto;
+}
+
+.form-item {
+    width: 100%;
+    margin-bottom: 13px;
+}
+
+span {
+    color: grey;
+}
+
+input::placeholder {
+    color: grey;
+}
+
+textarea {
+    padding: 15px;
+    color: black;
+    border: 1px solid grey;
+    width: 100%;
+}
+
+textarea::placeholder {
+    color: grey;
+}
+
+.button {
+    width: 290px;
+    height: 45px;
+    background-color: orange;
+    color: white;
+    font-weight: bold;
+    margin: 17px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 1s ease;
+}
+
+.button:hover {
+    background-color: black;
+}
+
+.contact-wrapper {
+    max-width: 290px;
+    margin: auto;
+}
+
+/* Make form look the same */
+::placeholder {
+    font-size: 14px;
+}
+
+/* MEDIA QUERIES */
+@media all and (min-width: 768px) {
+    .contact-wrapper {
+        max-width: 442px;
+    }
+
+    .form {
+        width: 442px;
+    }
+
+    .form-item:last-of-type {
+        align-self: flex-end;
+        width: auto;
+    }
+
+    .button {
+        width: 206px;
+    }
+}
+
+@media all and (min-width: 1200px) {
+    .contact-wrapper {
+        max-width: 601px;
+        margin: auto;
+    }
+
+    .line-item {
+        display: inline-block;
+    }
+    .inline-wrapper {
+        max-width: 601px;
+        margin: auto;
+    }
+    .mail {
+        width: 395px;
+    }
+    .tel {
+        width: 162px;
+    }
+    .button {
+        width: 278px;
+        margin-bottom: 107px;
+    }
+
+    .form {
+        width: 601px;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .form-item:last-of-type {
+        margin-left: auto;
+    }
 }

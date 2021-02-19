@@ -1,14 +1,49 @@
 import React from 'react';
 import anonymousProxy from '../images/anonymous-proxy.png'
 import rickAndMorty from '../images/rick and morty.png'
+
+import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
+import { library } from '@fortawesome/fontawesome-svg-core';
+import { fab } from '@fortawesome/free-brands-svg-icons';
+import { fas } from '@fortawesome/free-solid-svg-icons'
+
+library.add(fab);
+library.add(fas);
+
 const Portfolio = () => {
     return(
     <>
         <h3>Portfolio</h3>
         <section className="technologies-section">
             <h4>Technologies I work with</h4>
-            <p>HTML</p>
-            <p>Css</p>
+            <div>
+                <span>HTML |</span>
+                <span> Css3 |</span>
+                <span> SaSS |</span>
+                <span> Flexbox |</span>
+                <span> Grid |</span>
+                <span> Bootstrap</span>
+            </div>
+            <div>
+                <span>Javascript (ES6) |</span>
+                <span> servicios API |</span>
+                <span> Git |</span>
+                <span> Github</span>
+            </div>
+            <div>
+                <span>React |</span>
+                <span> NodeJS |</span>
+                <span> ExpressJS</span>
+            </div>
+            <div>
+                <span>Slack |</span>
+                <span> Trello |</span>
+                <span> Zeplin</span>
+            </div>
+            <div>
+                <span>Agile |</span>
+                <span> Scrum</span>
+            </div>
         </section>
         <section className="projects-section">
             <h4>Projects</h4>
@@ -34,6 +69,12 @@ const Portfolio = () => {
                     <span className="flip-back">Nice to meet U!</span>
                 </a>
         </section>
+        <nav className="social-media">
+            <ul>
+              <li><a href="https://www.linkedin.com/in/corina-mihaela-borcoci/"><FontAwesomeIcon icon={['fab', 'linkedin']} size='lg'></FontAwesomeIcon></a></li>
+              <li><a href="https://github.com/corimb"><FontAwesomeIcon icon={['fab', 'github']} size='lg'></FontAwesomeIcon></a></li>
+            </ul>
+        </nav>
     </>
     
     

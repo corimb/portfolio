@@ -13,13 +13,14 @@ library.add(fas);
 const Footer = () => {
     return( 
     <>
+        <span>Find me on</span>
         <nav className="social-media">
             <ul>
               <li><a href="https://www.linkedin.com/in/corina-mihaela-borcoci/"><FontAwesomeIcon icon={['fab', 'linkedin']} size='lg'></FontAwesomeIcon></a></li>
               <li><a href="https://github.com/corimb"><FontAwesomeIcon icon={['fab', 'github']} size='lg'></FontAwesomeIcon></a></li>
             </ul>
         </nav>
-        <span className="footer-copy">Made with ❤️ by Corina</span>
+        <span className="footer-copy">Made with ❤️ by <a href="https://github.com/corimb">Corina</a></span>
     </>
     )
 }

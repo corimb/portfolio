@@ -2,6 +2,7 @@ import React from 'react-router-dom';
 
 import './App.css';
 
+import Home from './views/Home'
 import About from './views/About'
 import Portfolio from './views/Portfolio'
 import Contact from './views/Contact'
@@ -16,8 +17,7 @@ function App() {
       </header>
       <main className="main-content">
         <section id="home" className="home">
-          <h2>Hi, I'm Corina</h2>
-          <span>Front end developer</span>
+          <Home/>
         </section>
         <section id="about" className="about">
         <About />
