@@ -16,8 +16,8 @@ const Portfolio = () => {
     return(
     <>
         <h3>Portfolio</h3>
+        <h4>Technologies I work with</h4>
         <section className="technologies-section">
-            <h4>Technologies I work with</h4>
             <div>
                 <span>HTML |</span>
                 <span> Css3 |</span>
@@ -47,8 +47,8 @@ const Portfolio = () => {
                 <span> Scrum</span>
             </div>
         </section>
+        <h4>Projects</h4>
         <section className="projects-section">
-            <h4>Projects</h4>
             <div className="projects">
                 <article className="anonymousProxy-project">
                     <a href="https://github.com/Adalab/modulo-1-evaluacion-final-corimb" title="Go to Anonymous proxy project on GitHub" rel="noopener noreferrer" target="_blank" className="anonymous-proxy-url">

@@ -21,8 +21,7 @@ const Contact = () => {
         
             <div class="line-item mail form-item">
             <label for="emailAddress"
-                >Email
-                <span>*</span>
+                >Email <span>*</span>
                 <input
                 type="email"
                 id="emailAddress"

@@ -19,11 +19,8 @@ const About = () => {
             </p>
         </article>
         <div className="separator"></div>
+        <h4 className="experience-skills-title">Experience and soft skills</h4>
         <section className="history">
-            <div className="experience-skills-title">
-                <div className="experience-title">Experience</div>
-                <div className="skills-title">Skills</div>
-            </div>
             <article className="experience-skills">
                 <div className="icon-container">
                     <FontAwesomeIcon className="experience-icon" icon={['fas', 'globe-africa']} ></FontAwesomeIcon>
