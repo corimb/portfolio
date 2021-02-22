@@ -1,0 +1,14 @@
+.footer {
+    min-height: 10vh;
+    width: 100vw;
+    bottom: 0;
+    background-color: rgb(224, 224, 221);
+
+    .footer-copy {
+        color: grey;
+        font-family: monospace;
+    }
+    & a {
+        color: black;
+    }
+}

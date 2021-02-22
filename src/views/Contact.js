@@ -1,4 +1,5 @@
 import React from 'react';
+import '../styles/Contact.scss';
 
 const Contact = () => {
     return(
@@ -59,9 +60,9 @@ const Contact = () => {
             </label>
             </div>
             <div class="form-item">
-            <button class="button" type="submit" value="Send">
-                Send
-            </button>
+                <button class="button-send" type="submit" value="Send">
+                    Send
+                </button>
             </div>
         </form>
     </>)

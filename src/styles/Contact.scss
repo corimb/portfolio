@@ -1,0 +1,104 @@
+.contact-title {
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.form {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 290px;
+    margin: auto;
+    ::placeholder {
+        font-size: 14px;
+    }
+    &-item {
+        width: 100%;
+        margin-bottom: 13px;
+        label {
+            color: black;
+            line-height: 2;
+            font-size: 14px;
+            span {
+                color: grey;
+            }
+            textarea {
+                padding: 15px;
+                color: black;
+                border: 1px solid grey;
+                width: 100%;
+                &::placeholder {
+                    color: gray;
+                }
+            }
+        }
+        input {
+            display: block;
+            width: 100%;
+            margin: auto;
+            padding: 15px;
+            height: 45px;
+            border: 1px solid black;
+            color: grey;
+            &::placeholder {
+                color: gray;
+            }
+        }
+        .button-send {
+            width: 290px;
+            height: 45px;
+            background-color: orange;
+            color: white;
+            font-weight: bold;
+            margin: 17px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 1s ease;
+            &:hover {
+                background-color: black;
+            }
+        }
+    }
+}
+
+/* MEDIA QUERIES */
+@media all and (min-width: 768px) {
+    .form {
+        width: 442px;
+        &-item:last-of-type {
+            align-self: flex-end;
+            width: auto;
+            .button-send {
+                width: 206px;
+            }
+        }
+    }
+}
+
+@media all and (min-width: 1200px) {
+    .line-item {
+        display: inline-block;
+    }
+    .mail {
+        width: 395px;
+    }
+    .tel {
+        width: 162px;
+    }
+
+    .form {
+        width: 601px;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-between;
+        &-item:last-of-type {
+            margin-left: auto;
+            .button-send {
+                width: 278px;
+                margin-bottom: 107px;
+            }
+        }
+    }
+}

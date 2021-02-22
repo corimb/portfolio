@@ -1,6 +1,5 @@
 import React from 'react';
-
-import '../App.css';
+import '../styles/Footer.scss';
 
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import { library } from '@fortawesome/fontawesome-svg-core';

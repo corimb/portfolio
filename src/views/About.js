@@ -1,6 +1,7 @@
 import React from 'react';
-import photo from '../images/corina.jpg'
-import '../App.css';
+import photo from '../images/corina.jpg';
+import '../styles/About.scss';
+import '../styles/separator.scss';
 
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import { library } from '@fortawesome/fontawesome-svg-core';
@@ -17,7 +18,7 @@ const About = () => {
             <p className="description">Esto es About Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
             </p>
         </article>
-        <div className="separator01"></div>
+        <div className="separator"></div>
         <section className="history">
             <div className="experience-skills-title">
                 <div className="experience-title">Experience</div>
@@ -32,9 +33,6 @@ const About = () => {
                     <p>communication</p>
                     <p>languages</p>
                 </div>
-                <div className="flip-back">
-                    <p>Text</p>
-                </div>
             </article>
             <article className="experience-skills">
                 <div className="icon-container">
@@ -45,9 +43,6 @@ const About = () => {
                     <p>teamwork</p>
                     <p>research</p>
                 </div>
-                <div className="flip-back">
-                    <p>Text</p>
-                </div>
             </article>
             <article className="experience-skills">
                 <div className="icon-container">
@@ -57,9 +52,6 @@ const About = () => {
                 <div className="skills">
                     <p>multitasking</p>
                     <p>manage conflicts</p>
-                </div>
-                <div className="flip-back">
-                    <p>Text</p>
                 </div>
             </article>
             <article className="experience-skills">
@@ -72,9 +64,6 @@ const About = () => {
                     <p>patience</p>
                     <p>leadership</p>
                 </div>
-                <div className="flip-back">
-                    <p>Text</p>
-                </div>
             </article>
             <article className="experience-skills">
                 <div className="icon-container">
@@ -84,9 +73,6 @@ const About = () => {
                 <div className="skills">
                     <p>responsability</p>
                     <p>organization</p>
-                </div>
-                <div className="flip-back">
-                    <p>Text</p>
                 </div>
             </article>
             <article className="experience-skills">
@@ -99,9 +85,6 @@ const About = () => {
                     <p>manage time</p>
                     <p>ambition</p>
                     <p>self control</p>
-                </div>
-                <div className="flip-back">
-                    <p>Text</p>
                 </div>
             </article>
         </section>

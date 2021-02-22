@@ -1,4 +1,5 @@
 import React from 'react';
+import '../styles/Home.scss';
 import scrollDownButton from '../images/ico-scroll-down.svg';
 
 const Home = () => {

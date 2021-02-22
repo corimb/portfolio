@@ -1,6 +1,6 @@
 import React from 'react-router-dom';
 
-import './App.css';
+import './styles/App.scss';
 
 import Home from './views/Home'
 import About from './views/About'
