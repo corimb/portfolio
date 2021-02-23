@@ -2,12 +2,13 @@
 
 .contact {
     padding-top: 107px;
-    background-color: #bda5c1;
+    background-color: #313131;
 }
 
 .contact-title {
     margin-top: 30px;
     margin-bottom: 15px;
+    color: white;
 }
 
 .form {
@@ -25,11 +26,11 @@
         width: 100%;
         margin-bottom: 13px;
         label {
-            color: black;
+            color: white;
             line-height: 2;
             font-size: 14px;
             span {
-                color: rgb(143, 34, 233);
+                color: white;
             }
             textarea {
                 padding: 15px;
@@ -37,7 +38,7 @@
                 border: 1px solid black;
                 width: 100%;
                 &:focus {
-                    outline: 2px solid rgba(203, 135, 248, 0.897);
+                    outline: 2px solid white;
                 }
                 &::placeholder {
                     color: rgb(185, 185, 185);
@@ -53,7 +54,7 @@
             border: 1px solid black;
             color: grey;
             &:focus {
-                outline: 2px solid rgba(203, 135, 248, 0.897);
+                outline: 2px solid white;
             }
             &::placeholder {
                 color: rgb(185, 185, 185);
@@ -62,7 +63,7 @@
         .button-send {
             width: 290px;
             height: 45px;
-            background-color: rgb(143, 34, 233);
+            background-color: black;
             color: white;
             font-weight: bold;
             margin: 17px;
@@ -71,8 +72,9 @@
             cursor: pointer;
             transition: background-color 0.5s ease;
             &:hover {
-                background-color: black;
-                color: white;
+                background-color: #f8f8f8;
+                color: Black;
+                border: 2px solid black;
             }
         }
     }

@@ -1,5 +1,4 @@
 import React from 'react';
-import photo from '../images/corina.jpg';
 import '../styles/About.scss';
 import '../styles/separator.scss';
 
@@ -14,11 +13,9 @@ const About = () => {
     <>
 	    <article>
             <h3 className="about-title">About</h3>
-			<img src={photo} alt="corina" className="photo"></img> 
             <p className="description">Esto es About Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
             </p>
         </article>
-        {/* <div className="separator"></div> */}
         <h4 className="experience-skills-title">Experience and soft skills</h4>
         <section className="history">
             <article className="experience-skills">

@@ -2,13 +2,14 @@
     min-height: 10vh;
     width: 100vw;
     bottom: 0;
-    background-color: #f2ebff;
+    background-color: #191919;
+    color: #7e7e7e;
 
     .footer-copy {
         color: grey;
         font-family: monospace;
     }
     & a {
-        color: black;
+        color: white;
     }
 }

@@ -30,7 +30,7 @@
     }
     .flip-front {
         color: #313131;
-        background-color: transparent;
+        background-color: white;
         -webkit-transform: rotateX(0deg) translateZ(25px);
         -ms-transform: rotateX(0deg) translateZ(25px);
         -o-transform: rotateX(0deg) translateZ(25px);
@@ -38,8 +38,8 @@
     }
 
     .flip-back {
-        color: #fff;
-        background-color: #f2ebff;
+        color: white;
+        background-color: #313131;
         -webkit-transform: rotateX(90deg) translateZ(25px);
         -ms-transform: rotateX(90deg) translateZ(25px);
         -o-transform: rotateX(90deg) translateZ(25px);
