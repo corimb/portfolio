@@ -1,5 +1,11 @@
-.App {
+body,
+html {
+    margin: 0;
+    font: bold 14px/1.4 'Open Sans', arial, sans-serif;
+    background: #282c34;
     text-align: center;
+    letter-spacing: 0.15em;
+    scroll-behavior: smooth;
 }
 
 a {
@@ -8,17 +14,43 @@ a {
 }
 
 .menu ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
+    padding-right: 1em;
+    list-style: none;
+    display: table;
+    text-align: center;
+    @media screen and (max-height: 300px) {
+        ul {
+            margin-top: 40px;
+        }
+    }
     li {
-        display: inline;
+        display: table-cell;
+        position: relative;
         a {
             padding: 0.7em;
             color: inherit;
             font-family: 'Roboto', sans-serif;
             font-weight: 300;
             text-decoration: none;
+            display: inline-block;
+            padding: 15px 20px;
+            position: relative;
+        }
+        &:after {
+            background: none repeat scroll 0 0 transparent;
+            bottom: 0;
+            content: '';
+            display: block;
+            height: 2px;
+            left: 50%;
+            position: absolute;
+            background: #fff;
+            transition: width 0.3s ease 0s, left 0.3s ease 0s;
+            width: 0;
+        }
+        &:hover:after {
+            width: 100%;
+            left: 0;
         }
     }
 }

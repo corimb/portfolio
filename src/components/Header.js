@@ -17,9 +17,9 @@ const Header = () => {
     <a href="#home"><FontAwesomeIcon className="home-icon" icon={['fas', 'home']} ></FontAwesomeIcon></a>
         <nav className="menu">
             <ul>
-              <li><a href="#about" className="about-link">About</a></li>
-              <li><a href="#portfolio" className="portfolio-link">Portfolio</a></li>
-              <li><a href="#contact" className="contact-link">Contact</a></li>
+              <li><a href="#about">about</a></li>
+              <li><a href="#portfolio">portfolio</a></li>
+              <li><a href="#contact">contact</a></li>
             </ul>
         </nav>
     </>

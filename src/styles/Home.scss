@@ -4,12 +4,9 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: url('../images/background.jpg');
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    opacity: 0.6;
+    background-color: #282c34;
     color: white;
+    font-size: x-large;
     &-button {
         margin-bottom: 53px;
         margin-top: 45px;

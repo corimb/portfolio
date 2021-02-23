@@ -1,5 +1,10 @@
 @import '../mixins/mixins';
 
+.contact {
+    padding-top: 107px;
+    background-color: #bda5c1;
+}
+
 .contact-title {
     margin-top: 30px;
     margin-bottom: 15px;
@@ -29,13 +34,13 @@
             textarea {
                 padding: 15px;
                 color: black;
-                border: 1px solid grey;
+                border: 1px solid black;
                 width: 100%;
                 &:focus {
                     outline: 2px solid rgba(203, 135, 248, 0.897);
                 }
                 &::placeholder {
-                    color: gray;
+                    color: rgb(185, 185, 185);
                 }
             }
         }
@@ -51,7 +56,7 @@
                 outline: 2px solid rgba(203, 135, 248, 0.897);
             }
             &::placeholder {
-                color: gray;
+                color: rgb(185, 185, 185);
             }
         }
         .button-send {
@@ -64,9 +69,10 @@
             border: none;
             border-radius: 5px;
             cursor: pointer;
-            transition: background-color 1s ease;
+            transition: background-color 0.5s ease;
             &:hover {
                 background-color: black;
+                color: white;
             }
         }
     }

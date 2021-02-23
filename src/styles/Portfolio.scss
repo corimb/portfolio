@@ -1,5 +1,13 @@
 @import '../mixins/mixins';
 
+.portfolio {
+    padding-top: 107px;
+    padding-bottom: 107px;
+    color: lightgrey;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+}
+
 .anonymous-proxy-photo,
 .rickAndMorty-photo {
     width: 300px;

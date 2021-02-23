@@ -10,6 +10,7 @@
     transition: all 0.3s ease-out;
     border: 1px solid black;
     margin-top: 40px;
+    letter-spacing: 0;
     .text--download {
         padding: 0 50px;
         visibility: hidden;
@@ -38,7 +39,7 @@
 
     .flip-back {
         color: #fff;
-        background-color: #313131;
+        background-color: #f2ebff;
         -webkit-transform: rotateX(90deg) translateZ(25px);
         -ms-transform: rotateX(90deg) translateZ(25px);
         -o-transform: rotateX(90deg) translateZ(25px);
