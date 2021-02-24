@@ -1,12 +1,37 @@
 @import '../mixins/mixins';
 
 .portfolio {
-    padding-top: 107px;
-    padding-bottom: 107px;
+    padding-top: 135px;
+    padding-bottom: 100px;
     color: black;
     font-family: 'Montserrat', sans-serif;
     font-weight: 300;
     background-color: #f8f8f8;
+    h3 {
+        margin-block-end: 2.5em;
+    }
+    hr.solid {
+        border-top: 1px solid #bbb;
+        transform: translate(0, -60px);
+    }
+    .technologies-section {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        max-width: 480px;
+        margin: auto;
+        h4 {
+            margin-block-start: 4em;
+            margin-block-end: 1em;
+        }
+        @include tablet {
+            max-width: 630px;
+        }
+    }
+    div {
+        padding: 10px;
+    }
 }
 
 .anonymous-proxy-photo,

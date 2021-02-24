@@ -4,12 +4,17 @@
     bottom: 0;
     background-color: #191919;
     color: #7e7e7e;
-
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     .footer-copy {
         color: grey;
         font-family: monospace;
     }
     & a {
+        color: white;
+    }
+    .social-media ul li a {
         color: white;
     }
 }
