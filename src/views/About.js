@@ -13,7 +13,7 @@ const About = () => {
     <>
 	    <article>
             <h3 className="about-title">About</h3>
-            <p className="description">Esto es About Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+            <p className="description">Born in Bucharest, Romania and currently living in Spain. Graduated in Tourism🌍 worked in Customer service 🎧 - administration and now programming 💻. Positive and curious. In the bootcamp that I finished on Adalab I have found the opportunity to reinvent myself and start this new adventure. Today I keep expanding my knowledge thanks to Free Code Camp, Medium articles and the savior Stack Overflow. In my free time I love traveling and photograph the special moments 📷, go to museums and expos 🎨, playing board games 🎲 with my friends, exercising and healthcare. I am currently looking for a job, so if you are interested in hiring a junior profile, don´t hesitate to contact me ;)
             </p>
         </article>
         <h4 className="experience-skills-title">Experience and soft skills</h4>
