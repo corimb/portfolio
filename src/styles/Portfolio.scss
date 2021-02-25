@@ -32,12 +32,23 @@
     div {
         padding: 10px;
     }
+    .projects {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin: auto;
+        justify-content: center;
+    }
 }
 
 .anonymous-proxy-photo,
-.rickAndMorty-photo {
-    width: 300px;
-    height: 200px;
+.rickAndMorty-photo,
+.guessTheNumber-photo,
+.searchSerials-photo,
+.quintetoDeSudo-photo,
+.kardmaCards-photo {
+    width: 340px;
+    height: 215px;
 }
 
 .technologies-section:first-of-type {
