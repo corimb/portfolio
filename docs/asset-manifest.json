@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "./static/css/main.34773cee.chunk.css",
+    "main.js": "./static/js/main.9f84e1e8.chunk.js",
+    "main.js.map": "./static/js/main.9f84e1e8.chunk.js.map",
+    "runtime-main.js": "./static/js/runtime-main.15427150.js",
+    "runtime-main.js.map": "./static/js/runtime-main.15427150.js.map",
+    "static/js/2.68f4bf7e.chunk.js": "./static/js/2.68f4bf7e.chunk.js",
+    "static/js/2.68f4bf7e.chunk.js.map": "./static/js/2.68f4bf7e.chunk.js.map",
+    "static/js/3.3d5e605d.chunk.js": "./static/js/3.3d5e605d.chunk.js",
+    "static/js/3.3d5e605d.chunk.js.map": "./static/js/3.3d5e605d.chunk.js.map",
+    "index.html": "./index.html",
+    "static/css/main.34773cee.chunk.css.map": "./static/css/main.34773cee.chunk.css.map",
+    "static/js/2.68f4bf7e.chunk.js.LICENSE.txt": "./static/js/2.68f4bf7e.chunk.js.LICENSE.txt",
+    "static/media/adivina-el-numero.47bb560e.png": "./static/media/adivina-el-numero.47bb560e.png",
+    "static/media/anonymous-proxy.5c7ae8fd.png": "./static/media/anonymous-proxy.5c7ae8fd.png",
+    "static/media/buscador-de-series.3b265f09.png": "./static/media/buscador-de-series.3b265f09.png",
+    "static/media/corina_home.1335628d.jpg": "./static/media/corina_home.1335628d.jpg",
+    "static/media/Home.scss": "./static/media/fondo.746b44f1.jpg",
+    "static/media/ico-scroll-down.01e4d1fc.svg": "./static/media/ico-scroll-down.01e4d1fc.svg",
+    "static/media/kardma-cards.5dafa5d0.png": "./static/media/kardma-cards.5dafa5d0.png",
+    "static/media/quinteto-de-sudo.dcd60dc2.png": "./static/media/quinteto-de-sudo.dcd60dc2.png",
+    "static/media/rick-and-morty.4ea85fc3.png": "./static/media/rick-and-morty.4ea85fc3.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.15427150.js",
+    "static/js/2.68f4bf7e.chunk.js",
+    "static/css/main.34773cee.chunk.css",
+    "static/js/main.9f84e1e8.chunk.js"
+  ]
+}

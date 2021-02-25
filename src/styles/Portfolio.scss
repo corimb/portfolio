@@ -2,13 +2,17 @@
 
 .portfolio {
     padding-top: 135px;
-    padding-bottom: 100px;
+    padding-bottom: 30px;
     color: black;
     font-family: 'Montserrat', sans-serif;
     font-weight: 300;
     background-color: #f8f8f8;
     h3 {
         margin-block-end: 2.5em;
+    }
+    h4 {
+        margin-block-start: 4em;
+        margin-block-end: 2em;
     }
     hr.solid {
         border-top: 1px solid #bbb;
@@ -23,7 +27,7 @@
         margin: auto;
         h4 {
             margin-block-start: 4em;
-            margin-block-end: 1em;
+            margin-block-end: 2em;
         }
         @include tablet {
             max-width: 630px;
@@ -37,7 +41,41 @@
         flex-direction: row;
         flex-wrap: wrap;
         margin: auto;
+        max-width: 300px;
+        line-height: 27px;
         justify-content: center;
+        @include tablet {
+            max-width: 700px;
+        }
+        @include desktop {
+            max-width: 1150px;
+            justify-content: space-between;
+        }
+        article {
+            padding-bottom: 80px;
+            max-width: 500px;
+        }
+        article:last-of-type {
+            padding-bottom: 40px;
+        }
+        h4 {
+            margin-block-start: 4em;
+            margin-block-end: 2em;
+        }
+        .tech {
+            font-weight: 600;
+        }
+    }
+    .border-see-more {
+        border: 1px solid black;
+        width: 200px;
+    }
+    .social-media ul li a {
+        padding: 5px;
+        &:hover {
+            background-color: black;
+            color: white;
+        }
     }
 }
 
