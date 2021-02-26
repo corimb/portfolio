@@ -8,6 +8,8 @@ const Contact = () => {
     telephone: "",
     comments: ""});
 
+    const [submitted, setSubmitted] = useState(false);
+
     const handleChange = event => {
         setData({
           ...data,
@@ -19,19 +21,20 @@ const Contact = () => {
     const submit = async (event) => {
         event.preventDefault(event)
         const queryString = Object.keys(data).map(key => key + '=' + data[key]).join('&');
-        const response = await fetch('https://formspree.io/xqkybken', {
+        await fetch('https://formspree.io/xqkybken', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/x-www-form-urlencoded',
             },
+            redirect: 'manual',
             body: queryString
         });
-        console.log(response)
+        setSubmitted(true)
     }
     
     return(
-    <>
-        <h3 className="contact-title">Contact</h3> 
+   <>
+        {submitted ? <article className="thanks-container"><h3 className="thanks-title">Thanks for reaching out! :)</h3> <p className="thanks-frase">I will get back to you as soon as possible.</p> </article> : <> <h3 className="contact-title">Contact</h3> 
         <form className="form">
             <div className="form-item">
             <label htmlFor="fullname" 
@@ -94,8 +97,8 @@ const Contact = () => {
                     Send
                 </button>
             </div>
-        </form>
-    </>)
+        </form> </>}
+    </> )
 }
 
 export default Contact;
