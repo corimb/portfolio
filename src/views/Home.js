@@ -9,9 +9,9 @@ const Home = () => {
         <img src={corina_home} alt="Corina" className="photo"></img>
         <h2>Hi, I'm Corina</h2>
         <span>Front end developer</span>
-        <div class="home-button">
+        <div className="home-button">
             <a href="#about" title="Go to About section">
-                <img class="scroll--down--button" src={scrollDownButton} alt="scroll down button"></img>
+                <img className="scroll--down--button" src={scrollDownButton} alt="scroll down button"></img>
             </a>
         </div>
     </>)

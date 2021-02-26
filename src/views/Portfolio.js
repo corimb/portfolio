@@ -8,6 +8,8 @@ import searchSerials from '../images/laptop/buscador-de-series.png';
 import kardmaCards from '../images/laptop/kardma-cards.png';
 import quintetoDeSudo from '../images/laptop/quinteto-de-sudo.png';
 
+import Curriculum from '../download/cv-corina-borcoci.pdf';
+
 
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import { library } from '@fortawesome/fontawesome-svg-core';
@@ -20,7 +22,7 @@ library.add(fas);
 const Portfolio = () => {
     return(
     <>  
-        <hr class="solid"></hr>
+        <hr className="solid"></hr>
         <h3>Portfolio</h3>
         <h4>Technologies I work with</h4>
         <section className="technologies-section">
@@ -159,9 +161,9 @@ const Portfolio = () => {
               <li><a href="https://github.com/corimb" title="Go to github"target="_blank" rel="noopener noreferrer"><strong>See more projects</strong></a></li>
             </ul>
         </nav>
-        <hr class="border-see-more"></hr>
+        <hr className="border-see-more"></hr>
         <section>
-                <a href="../download/cv-corina-borcoci.pdf" download="cv_corina_borcoci.pdf" className="download-btn">
+                <a href={Curriculum} download="cv_corina_borcoci.pdf" className="download-btn">Cv Corina Borcoci
                     <span className="text--download">Text</span>
                     <span className="flip-front">Download CV</span>
                     <span className="flip-back">Nice to meet U!</span>

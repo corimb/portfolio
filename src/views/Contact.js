@@ -1,56 +1,87 @@
-import React from 'react';
+import React, { useState} from 'react';
 import '../styles/Contact.scss';
 
 const Contact = () => {
+    
+    const [data, setData] = useState({fullname:"",
+    emailAddress:"",
+    telephone: "",
+    comments: ""});
+
+    const handleChange = event => {
+        setData({
+          ...data,
+          [event.target.name]: event.target.value,
+        });
+    };
+
+
+    const submit = async (event) => {
+        event.preventDefault(event)
+        const queryString = Object.keys(data).map(key => key + '=' + data[key]).join('&');
+        const response = await fetch('https://formspree.io/xqkybken', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/x-www-form-urlencoded',
+            },
+            body: queryString
+        });
+        console.log(response)
+    }
+    
     return(
     <>
-        <h3 className="contact-title">Contact</h3>
-        <form class="form" action="https://formspree.io/xqkybken" method="post">
-            <div class="form-item">
-            <label for="fullname" 
+        <h3 className="contact-title">Contact</h3> 
+        <form className="form">
+            <div className="form-item">
+            <label htmlFor="fullname" 
                 >Full name <span>*</span>
                 <input
                 type="text"
-                id="fullname"
                 name="fullname"
+                value={data.fullname}
+                onChange={handleChange}
                 placeholder="First and surname"
                 required
                 />
             </label>
             </div>
         
-            <div class="line-item mail form-item">
-            <label for="emailAddress"
+            <div className="line-item mail form-item">
+            <label htmlFor="emailAddress"
                 >Email <span>*</span>
                 <input
                 type="email"
-                id="emailAddress"
                 name="emailAddress"
+                value={data.emailAddress}
+                onChange={handleChange}
                 placeholder="firstname.surname@mail.com"
                 required
                 />
             </label>
             </div>
         
-            <div class="line-item tel form-item">
-            <label for="telephone"
+            <div className="line-item tel form-item">
+            <label htmlFor="telephone"
                 >Telephone
                 <input
                 type="tel"
-                id="telephone"
                 name="telephone"
+                value={data.telephone}
+                onChange={handleChange}
                 placeholder="Ex: 123456789"
                 pattern="[0-9]{9}"
                 />
             </label>
             </div>
         
-            <div class="form-item">
-            <label for="comments" 
+            <div className="form-item">
+            <label htmlFor="comments" 
                 >Message: <span>*</span>
                 <textarea
-                id="comments"
                 name="comments"
+                value={data.comments}
+                onChange={handleChange}
                 rows="8"
                 cols="35"
                 placeholder="Message..."
@@ -58,8 +89,8 @@ const Contact = () => {
                 ></textarea>
             </label>
             </div>
-            <div class="form-item">
-                <button class="button-send" type="submit" value="Send">
+            <div className="form-item">
+                <button className="button-send" value="Send" onClick={submit}>
                     Send
                 </button>
             </div>
