@@ -1,3 +1,5 @@
+@import '../mixins/mixins';
+
 .footer {
     min-height: 15vh;
     bottom: 0;
@@ -15,5 +17,8 @@
     }
     .social-media ul li a {
         color: white;
+    }
+    @include tablet {
+        font-size: 14px;
     }
 }

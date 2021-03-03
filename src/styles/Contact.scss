@@ -25,7 +25,10 @@
     margin: auto;
     padding-right: 30px;
     ::placeholder {
-        font-size: 14px;
+        font-size: 12px;
+        @include tablet {
+            font-size: 14px;
+        }
     }
     &-item {
         width: 100%;
@@ -33,7 +36,10 @@
         label {
             color: white;
             line-height: 2;
-            font-size: 14px;
+            font-size: 12px;
+            @include tablet {
+                font-size: 14px;
+            }
             span {
                 color: white;
             }
