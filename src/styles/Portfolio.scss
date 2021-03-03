@@ -1,12 +1,15 @@
 @import '../mixins/mixins';
 
 .portfolio {
-    padding-top: 135px;
+    padding-top: 120px;
     padding-bottom: 30px;
     color: black;
     font-family: 'Montserrat', sans-serif;
     font-weight: 300;
     background-color: #f8f8f8;
+    @include tablet {
+        padding-top: 135px;
+    }
     h3 {
         margin-block-end: 2.5em;
     }
@@ -15,7 +18,7 @@
         margin-block-end: 2em;
     }
     hr.solid {
-        border-top: 1px solid #bbb;
+        border-top: 0.5px solid #bbb;
         transform: translate(0, -60px);
     }
     .technologies-section {
@@ -54,6 +57,12 @@
         article {
             padding-bottom: 80px;
             max-width: 500px;
+            p {
+                font-size: 12px;
+                @include tablet {
+                    font-size: initial;
+                }
+            }
         }
         article:last-of-type {
             padding-bottom: 40px;

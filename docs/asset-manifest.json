@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "./static/css/main.51328128.chunk.css",
-    "main.js": "./static/js/main.49c228e5.chunk.js",
-    "main.js.map": "./static/js/main.49c228e5.chunk.js.map",
-    "runtime-main.js": "./static/js/runtime-main.f04f0858.js",
-    "runtime-main.js.map": "./static/js/runtime-main.f04f0858.js.map",
-    "static/js/2.a3314f30.chunk.js": "./static/js/2.a3314f30.chunk.js",
-    "static/js/2.a3314f30.chunk.js.map": "./static/js/2.a3314f30.chunk.js.map",
-    "static/js/3.b49a5229.chunk.js": "./static/js/3.b49a5229.chunk.js",
-    "static/js/3.b49a5229.chunk.js.map": "./static/js/3.b49a5229.chunk.js.map",
+    "main.css": "./static/css/main.91ffe033.chunk.css",
+    "main.js": "./static/js/main.ba4512f7.chunk.js",
+    "main.js.map": "./static/js/main.ba4512f7.chunk.js.map",
+    "runtime-main.js": "./static/js/runtime-main.8a23967d.js",
+    "runtime-main.js.map": "./static/js/runtime-main.8a23967d.js.map",
+    "static/js/2.dcad96a6.chunk.js": "./static/js/2.dcad96a6.chunk.js",
+    "static/js/2.dcad96a6.chunk.js.map": "./static/js/2.dcad96a6.chunk.js.map",
+    "static/js/3.dda27cfb.chunk.js": "./static/js/3.dda27cfb.chunk.js",
+    "static/js/3.dda27cfb.chunk.js.map": "./static/js/3.dda27cfb.chunk.js.map",
     "index.html": "./index.html",
-    "static/css/main.51328128.chunk.css.map": "./static/css/main.51328128.chunk.css.map",
-    "static/js/2.a3314f30.chunk.js.LICENSE.txt": "./static/js/2.a3314f30.chunk.js.LICENSE.txt",
+    "static/css/main.91ffe033.chunk.css.map": "./static/css/main.91ffe033.chunk.css.map",
+    "static/js/2.dcad96a6.chunk.js.LICENSE.txt": "./static/js/2.dcad96a6.chunk.js.LICENSE.txt",
     "static/media/adivina-el-numero.47bb560e.png": "./static/media/adivina-el-numero.47bb560e.png",
     "static/media/anonymous-proxy.5c7ae8fd.png": "./static/media/anonymous-proxy.5c7ae8fd.png",
     "static/media/buscador-de-series.3b265f09.png": "./static/media/buscador-de-series.3b265f09.png",
@@ -24,9 +24,9 @@
     "static/media/rick-and-morty.4ea85fc3.png": "./static/media/rick-and-morty.4ea85fc3.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.f04f0858.js",
-    "static/js/2.a3314f30.chunk.js",
-    "static/css/main.51328128.chunk.css",
-    "static/js/main.49c228e5.chunk.js"
+    "static/js/runtime-main.8a23967d.js",
+    "static/js/2.dcad96a6.chunk.js",
+    "static/css/main.91ffe033.chunk.css",
+    "static/js/main.ba4512f7.chunk.js"
   ]
 }

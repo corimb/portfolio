@@ -1,4 +1,4 @@
-import React from 'react-router-dom';
+import React, { useState, useEffect } from 'react';
 
 import './styles/App.scss';
 
@@ -10,9 +10,21 @@ import Header from './components/Header'
 import Footer from './components/Footer'
 
 function App() {
+  const [headerBackgroundColor, setHeaderBackgroundColor] = useState("black");
+
+  const listenScrollEvent = () => {
+    window.scrollY > 750
+      ? setHeaderBackgroundColor ("rgba(255, 255, 255, 0.98)")
+      : setHeaderBackgroundColor ("black")
+  }
+
+  useEffect(() => {
+    window.addEventListener("scroll", listenScrollEvent)
+  })
+
   return (
     <div className="App">
-      <header className="App-header" id="js-header">
+      <header className="App-header" id="js-header" style={{backgroundColor: headerBackgroundColor}}>
         <Header/>
       </header>
       <main className="main-content">

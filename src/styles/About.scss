@@ -11,13 +11,14 @@
     text-align: justify;
     font-family: 'Montserrat', sans-serif;
     font-weight: 300;
-    font-size: initial;
+    font-size: 12px;
     line-height: 27px;
     padding-bottom: 50px;
     padding-top: 25px;
     @include tablet {
         margin-left: 6em;
         margin-right: 6em;
+        font-size: initial;
     }
     @include desktop {
         max-width: 847px;
@@ -81,6 +82,10 @@
             text-align: center;
             font-family: 'Montserrat', sans-serif;
             font-weight: 200;
+            font-size: 12px;
+            @include tablet {
+                font-size: initial;
+            }
         }
     }
 }

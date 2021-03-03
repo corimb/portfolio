@@ -1,12 +1,10 @@
 .App-header {
-    background-color: #040506;
     min-height: 10vh;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
     font-size: calc(5px + 2vmin);
-    color: white;
     width: 100vw;
     position: fixed;
     z-index: 99;
@@ -14,6 +12,8 @@
 
 .home-icon {
     padding: 1em;
+    border-radius: 5px;
+    background-color: black;
     color: white;
     &:hover {
         transition: 0.3s all ease-out;

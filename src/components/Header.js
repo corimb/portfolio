@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 
 import '../styles/Header.scss';
 
@@ -12,18 +12,30 @@ library.add(fab);
 library.add(fas);
 
 const Header = () => {
-    return( 
-    <>
-    <a href="#home"><FontAwesomeIcon className="home-icon" icon={['fas', 'home']} ></FontAwesomeIcon></a>
-        <nav className="menu">
-            <ul>
-              <li><a href="#about">about</a></li>
-              <li><a href="#portfolio">portfolio</a></li>
-              <li><a href="#contact">contact</a></li>
-            </ul>
-        </nav>
-    </>
-    )
+    const [headerColor, setHeaderColor] = useState("white");
+
+
+const listenScrollEvent = () => {
+    window.scrollY > 750
+      ? setHeaderColor("black")
+      : setHeaderColor("white")
+  }
+
+  useEffect(() => {
+    window.addEventListener("scroll", listenScrollEvent)
+  })
+return( 
+<>
+<a href="#home"><FontAwesomeIcon className="home-icon" icon={['fas', 'home']} ></FontAwesomeIcon></a>
+<nav className="menu" style={{color: headerColor}}>
+    <ul>
+    <li><a href="#about">about</a></li>
+    <li><a href="#portfolio">portfolio</a></li>
+    <li><a href="#contact">contact</a></li>
+    </ul>
+</nav>
+</>
+)
 }
 
 export default Header;
