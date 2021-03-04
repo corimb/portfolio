@@ -19,7 +19,7 @@ const Footer = () => {
               <li><a href="https://github.com/corimb" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={['fab', 'github']} size='lg'></FontAwesomeIcon></a></li>
             </ul>
         </nav>
-        <span className="footer-copy">Made with ❤️ by <a href="https://github.com/corimb" target="_blank" rel="noopener noreferrer">Corina</a></span>
+        <span className="footer-copy">Made with ❤️ by <a href="https://github.com/corimb/portfolio" target="_blank" rel="noopener noreferrer">Corina</a></span>
     </>
     )
 }

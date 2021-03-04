@@ -2,10 +2,10 @@ import React, { useState, useEffect } from 'react';
 
 import './styles/App.scss';
 
-import Home from './views/Home'
-import About from './views/About'
-import Portfolio from './views/Portfolio'
-import Contact from './views/Contact'
+import Home from './components/Home'
+import About from './components/About'
+import Portfolio from './components/Portfolio'
+import Contact from './components/Contact'
 import Header from './components/Header'
 import Footer from './components/Footer'
 

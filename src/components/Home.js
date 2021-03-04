@@ -7,7 +7,7 @@ const Home = () => {
     return(
     <>
         <img src={corina_home} alt="Corina" className="photo"></img>
-        <h2>Hi, I'm Corina</h2>
+        <h2>Hi, My name is Corina Borcoci.</h2>
         <span>Front end developer</span>
         <div className="home-button">
             <a href="#about" title="Go to About section">

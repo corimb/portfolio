@@ -28,12 +28,20 @@
         flex-wrap: wrap;
         max-width: 480px;
         margin: auto;
+        &:first-of-type {
+            @include tablet {
+                font-size: 1.5em;
+            }
+        }
         h4 {
             margin-block-start: 4em;
             margin-block-end: 2em;
         }
         @include tablet {
             max-width: 630px;
+        }
+        span {
+            font-size: 13px;
         }
     }
     div {
@@ -52,27 +60,80 @@
         }
         @include desktop {
             max-width: 1150px;
-            justify-content: space-between;
+            justify-content: space-around;
         }
         article {
             padding-bottom: 80px;
             max-width: 500px;
-            p {
+            article:last-of-type {
+                padding-bottom: 40px;
+            }
+            .project-photo {
+                width: 320px;
+                height: 215px;
+                border-radius: 5px;
+                box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034), 0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+                    0 12.5px 10px rgba(0, 0, 0, 0.06), 0 22.3px 17.9px rgba(0, 0, 0, 0.062),
+                    0 41.8px 33.4px rgba(0, 0, 0, 0.066), 0 100px 80px rgba(0, 0, 0, 0.01);
+                @media all and (max-width: 768px) {
+                    transition: all 0.2s ease-in-out;
+                    &:hover {
+                        transform: scale(1.3);
+                    }
+                }
+            }
+            .project-description {
                 font-size: 12px;
                 @include tablet {
                     font-size: initial;
                 }
             }
-        }
-        article:last-of-type {
-            padding-bottom: 40px;
+            .project-technologies {
+                font-weight: 600;
+            }
         }
         h4 {
             margin-block-start: 4em;
             margin-block-end: 2em;
         }
-        .tech {
-            font-weight: 600;
+        .flip-box {
+            @include desktop {
+                background-color: transparent;
+                width: 400px;
+                height: 250px;
+                perspective: 1000px;
+                font-size: 12px;
+                h5 {
+                    margin-block-start: 0;
+                    margin-block-end: 0;
+                }
+                &-inner {
+                    position: relative;
+                    width: 100%;
+                    height: 100%;
+                    text-align: center;
+                    transition: transform 0.8s;
+                    transform-style: preserve-3d;
+                    transform: translate(-40px, 20px);
+                }
+                &:hover .flip-box-inner {
+                    transform: rotateY(180deg);
+                }
+                &-front,
+                &-back {
+                    position: absolute;
+                    border-radius: 5px;
+                    width: 100%;
+                    height: 100%;
+                    -webkit-backface-visibility: hidden; /* Safari */
+                    backface-visibility: hidden;
+                }
+                &-back {
+                    background-color: #919191;
+                    color: white;
+                    transform: rotateY(180deg);
+                }
+            }
         }
     }
     .border-see-more {
@@ -81,31 +142,11 @@
     }
     .social-media ul li a {
         padding: 5px;
+        margin-left: 10px;
+        margin-right: 10px;
         &:hover {
             background-color: black;
             color: white;
         }
-    }
-}
-
-.anonymous-proxy-photo,
-.rickAndMorty-photo,
-.guessTheNumber-photo,
-.searchSerials-photo,
-.quintetoDeSudo-photo,
-.kardmaCards-photo {
-    width: 340px;
-    height: 215px;
-    transition: all 0.2s ease-in-out;
-    box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034), 0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06),
-        0 22.3px 17.9px rgba(0, 0, 0, 0.062), 0 41.8px 33.4px rgba(0, 0, 0, 0.066), 0 100px 80px rgba(0, 0, 0, 0.01);
-    &:hover {
-        transform: scale(1.3);
-    }
-}
-
-.technologies-section:first-of-type {
-    @include tablet {
-        font-size: 1.5em;
     }
 }
