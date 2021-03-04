@@ -13,7 +13,7 @@ const ProjectItem = (props) =>{
         <article className="flip-box">
             <div class="flip-box-inner">
                 <div class="flip-box-front">
-                    <img src={process.env.PUBLIC_URL + photo} alt={title} className="project-photo"></img>
+                    <img src={photo} alt={title} className="project-photo"></img>
                 </div>
                 <div class="flip-box-back">
                     <div className="project-details">
