@@ -1,7 +1,7 @@
 [
     {
         "id": "1",
-        "photo": "../images/laptop/rick-and-morty.png",
+        "photo": "./rick-and-morty.png",
         "title": "Rick and Morty Character finder",
         "description": "In the main page you can see the list of 20 characters sorted by name and if you click on a character card you will get more details of it. What's your favourite?",
         "technologies": "ReactJS | React Router | hooks | Api | Javascript",
@@ -10,7 +10,7 @@
     },
     {
         "id": "2",
-        "photo": "../images/laptop/buscador-de-series.png",
+        "photo": "./buscador-de-series.png",
         "title": "Search Serials",
         "description": "This project is a series searcher which allows you to add series to a favorite list, remove them and use the local storage to remeber your preferences.",
         "technologies": "HTML | SCSS | Flexbox | Grid | Api | Javascript | localStorage",
@@ -19,7 +19,7 @@
     },
     {
         "id": "3",
-        "photo": "../images/laptop/adivina-el-numero.png",
+        "photo": "./adivina-el-numero.png",
         "title": "Guess the number",
         "description": "Random number generator between 1 and 100 with different clues and an attempts counter.",
         "technologies": "Javascript | Api",
@@ -28,7 +28,7 @@
     },
     {
         "id": "4",
-        "photo": "../images/laptop/anonymous-proxy.png",
+        "photo": "./anonymous-proxy.png",
         "title": "Anonymous proxy",
         "description": "The exercise consists of developing a web page according to a design given in Zeplin.",
         "technologies": "HTML | SCSS | Flexbox | Grid | Zeplin",
@@ -37,7 +37,7 @@
     },
     {
         "id": "5",
-        "photo": "../images/laptop/quinteto-de-sudo.png",
+        "photo": "./quinteto-de-sudo.png",
         "title": "Quinteto de $sudo",
         "description": "In this group website project we present the members of our $ sudo Quintet group to potential clients.",
         "technologies": "HTML | Sass | Flexbox | Grid | mobile first | transitions | git",
@@ -46,7 +46,7 @@
     },
     {
         "id": "6",
-        "photo": "../images/laptop/kardma-cards.png",
+        "photo": "./kardma-cards.png",
         "title": "KardMA - Card Maker App",
         "description": "Group project. This web application can be used to create business cards interactively and share them on Twitter.",
         "technologies": "HTML | Sass | Flexbox | Grid | mobile first | git | Javascript | localStorage",
