@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "./static/css/main.3c8043d8.chunk.css",
-    "main.js": "./static/js/main.b83fa02f.chunk.js",
-    "main.js.map": "./static/js/main.b83fa02f.chunk.js.map",
+    "main.css": "./static/css/main.cea4f1f6.chunk.css",
+    "main.js": "./static/js/main.000278f8.chunk.js",
+    "main.js.map": "./static/js/main.000278f8.chunk.js.map",
     "runtime-main.js": "./static/js/runtime-main.2cbd5207.js",
     "runtime-main.js.map": "./static/js/runtime-main.2cbd5207.js.map",
     "static/js/2.a2b4ecc5.chunk.js": "./static/js/2.a2b4ecc5.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.02ecc61e.chunk.js": "./static/js/3.02ecc61e.chunk.js",
     "static/js/3.02ecc61e.chunk.js.map": "./static/js/3.02ecc61e.chunk.js.map",
     "index.html": "./index.html",
-    "static/css/main.3c8043d8.chunk.css.map": "./static/css/main.3c8043d8.chunk.css.map",
+    "static/css/main.cea4f1f6.chunk.css.map": "./static/css/main.cea4f1f6.chunk.css.map",
     "static/js/2.a2b4ecc5.chunk.js.LICENSE.txt": "./static/js/2.a2b4ecc5.chunk.js.LICENSE.txt",
     "static/media/corina_home.84480b15.jpg": "./static/media/corina_home.84480b15.jpg",
     "static/media/cv-corina-borcoci.ea61e0a8.pdf": "./static/media/cv-corina-borcoci.ea61e0a8.pdf",
@@ -20,7 +20,7 @@
   "entrypoints": [
     "static/js/runtime-main.2cbd5207.js",
     "static/js/2.a2b4ecc5.chunk.js",
-    "static/css/main.3c8043d8.chunk.css",
-    "static/js/main.b83fa02f.chunk.js"
+    "static/css/main.cea4f1f6.chunk.css",
+    "static/js/main.000278f8.chunk.js"
   ]
 }

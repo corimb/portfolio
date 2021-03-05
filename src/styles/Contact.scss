@@ -89,6 +89,9 @@
             }
         }
     }
+    .error-message {
+        color: #ff9a01;
+    }
 }
 
 /* MEDIA QUERIES */
@@ -111,9 +114,6 @@
     }
     .mail {
         width: 395px;
-    }
-    .tel {
-        width: 162px;
     }
 
     .form {

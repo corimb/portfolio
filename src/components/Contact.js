@@ -86,7 +86,7 @@ const Contact = () => {
                 placeholder="First and surname"
                 />
             </label>
-            {errors.fullname && <p>{errors.fullname}</p>}
+            {errors.fullname && <p className="error-message">{errors.fullname}</p>}
             </div>
         
             <div className="line-item form-item">
@@ -100,7 +100,7 @@ const Contact = () => {
                 placeholder="firstname.surname@mail.com"
                 />
             </label>
-            {errors.emailAddress && <p>{errors.emailAddress}</p>}
+            {errors.emailAddress && <p className="error-message">{errors.emailAddress}</p>}
             </div>
         
             <div className="form-item">
@@ -115,7 +115,7 @@ const Contact = () => {
                 placeholder="Message..."
                 ></textarea>
             </label>
-            {errors.comments && <p>{errors.comments}</p>}
+            {errors.comments && <p className="error-message">{errors.comments}</p>}
             </div>
             <div className="form-item">
                 <button className="button-send" value="Send" type="submit" >
