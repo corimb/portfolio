@@ -10,12 +10,12 @@ import Header from './components/Header'
 import Footer from './components/Footer'
 
 function App() {
-  const [headerBackgroundColor, setHeaderBackgroundColor] = useState("black");
+  const [headerBackgroundColor, setHeaderBackgroundColor] = useState("#dac7b8");
 
   const listenScrollEvent = () => {
     window.scrollY > 750
       ? setHeaderBackgroundColor ("rgba(255, 255, 255, 0.98)")
-      : setHeaderBackgroundColor ("black")
+      : setHeaderBackgroundColor ("#dac7b8")
   }
 
   useEffect(() => {

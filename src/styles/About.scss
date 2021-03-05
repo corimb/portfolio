@@ -28,6 +28,11 @@
 .history {
     margin-left: 2em;
     margin-right: 2em;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
     @include tablet {
         display: flex;
         flex-direction: row;
@@ -54,19 +59,23 @@
         display: grid;
         grid-template-rows: 1fr 1fr;
         justify-content: center;
-        margin: 1em;
+        margin: 1em auto;
         padding: 1rem 1rem;
         background: #ffffff;
-        height: 140px;
+        height: 90px;
+        width: 200px;
+        font-size: xx-small;
         border-radius: 5px;
         box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034), 0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06),
             0 22.3px 17.9px rgba(0, 0, 0, 0.062), 0 41.8px 33.4px rgba(0, 0, 0, 0.066), 0 100px 80px rgba(0, 0, 0, 0.1);
         @include tablet {
-            width: 250px;
+            height: 120px;
+            width: 240px;
         }
     }
     .icon-container {
         text-align: center;
+        color: #b5a596;
         & p {
             font-family: 'Montserrat', sans-serif;
             font-weight: 400;

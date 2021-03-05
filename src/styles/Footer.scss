@@ -17,6 +17,9 @@
     }
     .social-media ul li a {
         color: white;
+        &:hover {
+            color: #ffdbbb;
+        }
     }
     @include tablet {
         font-size: 14px;

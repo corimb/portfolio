@@ -11,11 +11,11 @@ const ProjectItem = (props) =>{
     const { photo, title, description, technologies, githubUrl, webUrl } = props;
     return(
         <article className="flip-box">
-            <div class="flip-box-inner">
-                <div class="flip-box-front">
+            <div className="flip-box-inner">
+                <div className="flip-box-front">
                     <img src={process.env.PUBLIC_URL + photo} alt={title} className="project-photo"></img>
                 </div>
-                <div class="flip-box-back">
+                <div className="flip-box-back">
                     <div className="project-details">
                         <h5>{title}</h5>
                         <p className="project-description">{description}</p>

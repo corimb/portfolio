@@ -5,17 +5,20 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: flex-end;
-    color: white;
-    background-image: url('../images/fondo.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
+    align-items: flex-start;
+    color: rgb(41, 36, 36);
+    background-color: #ffe8d4;
     opacity: 0.8;
-    padding-right: 5%;
+    padding-left: 5%;
+    text-align: left;
     @include tablet {
-        align-items: center;
         padding-right: 0;
         font-size: x-large;
+    }
+    @include desktop {
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
     }
     .photo {
         width: 160px;
@@ -35,14 +38,14 @@
     &-button {
         margin-bottom: 53px;
         margin-top: 45px;
-        transform: translate(0, 80px);
+        transform: translate(0, 230px);
+        align-self: center;
 
         .scroll--down--button {
-            width: 35px;
-            height: 35px;
-            border-radius: 50%;
+            width: 52px;
+            height: 14px;
+            border-radius: 12%;
             padding: 11px;
-            background-color: transparent;
             transform: translate(0, 0);
             animation: pulse 2.5s ease infinite;
         }
@@ -54,6 +57,19 @@
             50% {
                 transform: translate(0, -90%);
             }
+        }
+    }
+    .social-media {
+        align-items: flex-start;
+    }
+    .right-picture {
+        height: 100vh;
+        width: 55vw;
+        max-width: 700px;
+        padding-right: 5%;
+        display: none;
+        @include desktop {
+            display: inline-block;
         }
     }
 }

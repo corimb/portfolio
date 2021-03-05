@@ -21,7 +21,6 @@ const Portfolio = () => {
       }, []);
     return(
     <>  
-        <hr className="solid"></hr>
         <h3>Portfolio</h3>
         <h4>Technologies I work with</h4>
         <section className="technologies-section">
