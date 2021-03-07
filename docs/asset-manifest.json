@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "./static/css/main.cea4f1f6.chunk.css",
+    "main.css": "./static/css/main.5386349d.chunk.css",
     "main.js": "./static/js/main.000278f8.chunk.js",
     "main.js.map": "./static/js/main.000278f8.chunk.js.map",
     "runtime-main.js": "./static/js/runtime-main.2cbd5207.js",
@@ -10,7 +10,7 @@
     "static/js/3.02ecc61e.chunk.js": "./static/js/3.02ecc61e.chunk.js",
     "static/js/3.02ecc61e.chunk.js.map": "./static/js/3.02ecc61e.chunk.js.map",
     "index.html": "./index.html",
-    "static/css/main.cea4f1f6.chunk.css.map": "./static/css/main.cea4f1f6.chunk.css.map",
+    "static/css/main.5386349d.chunk.css.map": "./static/css/main.5386349d.chunk.css.map",
     "static/js/2.a2b4ecc5.chunk.js.LICENSE.txt": "./static/js/2.a2b4ecc5.chunk.js.LICENSE.txt",
     "static/media/corina_home.84480b15.jpg": "./static/media/corina_home.84480b15.jpg",
     "static/media/cv-corina-borcoci.ea61e0a8.pdf": "./static/media/cv-corina-borcoci.ea61e0a8.pdf",
@@ -20,7 +20,7 @@
   "entrypoints": [
     "static/js/runtime-main.2cbd5207.js",
     "static/js/2.a2b4ecc5.chunk.js",
-    "static/css/main.cea4f1f6.chunk.css",
+    "static/css/main.5386349d.chunk.css",
     "static/js/main.000278f8.chunk.js"
   ]
 }
