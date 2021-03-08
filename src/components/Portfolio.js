@@ -4,7 +4,7 @@ import ProjectsList from './ProjectsList';
 import '../styles/Portfolio.scss';
 import '../styles/downloadBtn.scss';
 
-import Curriculum from '../download/cv-corina-borcoci.pdf';
+import Curriculum from '../download/Resume.pdf';
 
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { fab } from '@fortawesome/free-brands-svg-icons';
