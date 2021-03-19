@@ -4,18 +4,18 @@
         "photo": "/images-projects/rick-and-morty.png",
         "title": "Rick and Morty Character finder",
         "description": "In the main page you can see the list of 20 characters sorted by name and if you click on a character card you will get more details of it. What's your favourite?",
-        "technologies": "ReactJS | React Router | hooks | Api | Javascript",
+        "technologies": "ReactJs | React Router | hooks | Api | Javascript",
         "githubUrl": "https://github.com/corimb/modulo-3-evaluacion-final-RickandMorty",
         "webUrl": "https://corimb.github.io/modulo-3-evaluacion-final-RickandMorty/#/"
     },
     {
         "id": "2",
-        "photo": "/images-projects/buscador-de-series.png",
-        "title": "Search Serials",
-        "description": "This project is a series searcher which allows you to add series to a favorite list, remove them and use the local storage to remeber your preferences.",
-        "technologies": "HTML | SCSS | Flexbox | Grid | Api | Javascript | localStorage",
-        "githubUrl": "https://github.com/corimb/modulo-2-evaluacion-final-Buscador-de-series",
-        "webUrl": "https://corimb.github.io/modulo-2-evaluacion-final-Buscador-de-series/"
+        "photo": "/images-projects/weather-app.png",
+        "title": "Weather App",
+        "description": "This is a side project which allows you to search the weather in different cities, add those locations to a favorite list, remove them and use the local storage to remeber your preferences.",
+        "technologies": "HTML | SCSS | ReactJs | Apis | Javascript",
+        "githubUrl": "https://github.com/corimb/weather-app",
+        "webUrl": "https://corimb.github.io/weather-app/#/"
     },
     {
         "id": "3",
