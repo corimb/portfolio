@@ -22,7 +22,7 @@
         flex-direction: row;
         justify-content: space-evenly;
         flex-wrap: wrap;
-        max-width: 480px;
+        max-width: 515px;
         margin: auto;
         &:first-of-type {
             @include tablet {
@@ -34,7 +34,7 @@
             margin-block-end: 2em;
         }
         @include tablet {
-            max-width: 630px;
+            max-width: 720px;
         }
         span {
             font-size: 13px;

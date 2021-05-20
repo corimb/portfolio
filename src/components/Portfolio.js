@@ -30,7 +30,8 @@ const Portfolio = () => {
                 <span> SaSS |</span>
                 <span> Flexbox |</span>
                 <span> Grid |</span>
-                <span> Bootstrap</span>
+                <span> Bootstrap |</span>
+                <span> Material Ui</span>
             </div>
             <div>
                 <span>Javascript (ES6) |</span>
@@ -39,17 +40,18 @@ const Portfolio = () => {
                 <span> Github</span>
             </div>
             <div>
-                <span>React |</span>
-                <span> NodeJS |</span>
-                <span> ExpressJS</span>
+                <span> MongoDB |</span>
+                <span> mongoose |</span>
+                <span> ExpressJS |</span>
+                <span> React |</span>
+                <span> Redux |</span>
+                <span> NodeJS</span>
             </div>
             <div>
                 <span>Slack |</span>
                 <span> Trello |</span>
-                <span> Zeplin</span>
-            </div>
-            <div>
-                <span>Agile |</span>
+                <span> Zeplin |</span>
+                <span> Agile |</span>
                 <span> Scrum</span>
             </div>
         </section>

@@ -19,6 +19,15 @@
     },
     {
         "id": "3",
+        "photo": "/images-projects/movie_club.png",
+        "title": "Movie CLUB",
+        "description": "This is a MERN Application with user authentication that allows you to create a new review about your favorite movie, edit and like others's posts.",
+        "technologies": "MongoDB | ExpressJs | ReactJs | NodeJs | JWT | Redux | Material UI",
+        "githubUrl": "https://github.com/corimb/Movie-CLUB",
+        "webUrl": "https://github.com/corimb/Movie-CLUB"
+    },
+    {
+        "id": "4",
         "photo": "/images-projects/adivina-el-numero.png",
         "title": "Guess the number",
         "description": "Random number generator between 1 and 100 with different clues and an attempts counter.",
@@ -27,7 +36,7 @@
         "webUrl": "https://corimb.github.io/modulo-2-evaluacion-intermedia-Adivina-el-numero/"
     },
     {
-        "id": "4",
+        "id": "5",
         "photo": "/images-projects/anonymous-proxy.png",
         "title": "Anonymous proxy",
         "description": "The exercise consists of developing a web page according to a design given in Zeplin.",
@@ -36,7 +45,7 @@
         "webUrl": "https://corimb.github.io/modulo-1-evaluacion-final-AnonymousProxy/"
     },
     {
-        "id": "5",
+        "id": "6",
         "photo": "/images-projects/quinteto-de-sudo.png",
         "title": "Quinteto de $sudo",
         "description": "In this group website project we present the members of our $ sudo Quintet group to potential clients.",
@@ -45,7 +54,7 @@
         "webUrl": "https://corimb.github.io/Quinteto-de-sudo/"
     },
     {
-        "id": "6",
+        "id": "7",
         "photo": "/images-projects/kardma-cards.png",
         "title": "KardMA - Card Maker App",
         "description": "Group project. This web application can be used to create business cards interactively and share them on Twitter.",
